@@ -8,8 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class StudentsManagementApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext run =
-                SpringApplication.run(StudentsManagementApplication.class, args);
+        ConfigurableApplicationContext run = SpringApplication.run(StudentsManagementApplication.class, args);
         System.out.println("Student Management Application Started");
     }
 
