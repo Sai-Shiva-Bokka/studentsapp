@@ -10,8 +10,7 @@ public class StudentsManagementApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext run =
                 SpringApplication.run(StudentsManagementApplication.class, args);
-
-        system.out.println("hello");
+        System.out.println("Student Management Application Started");
     }
 
 }
